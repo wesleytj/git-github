@@ -16,7 +16,7 @@ Para inicializar um repositório no git, utilizamos o comando `git init`.
 * Acesse essa pasta no seu terminal
 * Digite o comando `git init` para inicializar o respositório
 
-# (GIT COMMIT) Publicando o enviando o conteúdo para o GitHub 
+## (GIT COMMIT) Publicando o enviando o conteúdo para o GitHub 
 
 Após inicializar o git conforme as instruções acima, podemos enviar o nosso repositório local vazio para o GitHub, ou inserir as pastas e arquivos e depois enviar tudo junto.
 Vamos publicar nosso primeiro repositório com um arquivo `Readme` pelo menos. Você pode ir até seu repositório navegando pelo GUI e criar o `Readme` utilizando o editor de texto de sua preferência. Ou por linha de comando pela CLI.
@@ -25,15 +25,15 @@ Inicialmente vamos fazer da forma mais fácil, vá até seu repositório, crie u
 Após edita-lo e salva-lo da forma que deseja. Acesse seu repositório pelo terminal e siga as intruções abaixo:
 
 * Primeiro, vamos verificar o status que estamos, digite `git status`.
-![Verificando status](img1)
+![Verificando status](https://github.com/wesleytj/git-github/blob/main/img/img1.png)<br>
 Podemos verificar na imagem que temos nosso arquivo `Readme.md`, porém o mesmo não foi adicionado.
 * Então, para isso, vamos adicionar através do seguinte comando: `git add *` || `git add <nome arquivo>`.
 Após adicionar o arquivo, digite novamente o comando para verificar o status.
 ###### Utilize * para adicionar tudo ou digite o nome do arquivo em especifico que deseja adicionar.
 
-![Adicionando arquivos para commit](img2)
+![Adicionando arquivos para commit](https://github.com/wesleytj/git-github/blob/main/img/img2.png)<br>
 Após adicionar os arquivos, podemos finalmente commitar o nosso projeto para o GitHub.
 
 * Utilizando o comando `git commit -m "Descrição do commit"` 
-![Commitando nosso projeto](img3)
+![Commitando nosso projeto](https://github.com/wesleytj/git-github/blob/main/img/img3.png)<br>
 **Congratulations** fizemos nosso primeiro Commit.
