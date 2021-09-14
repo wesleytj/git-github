@@ -1,6 +1,14 @@
-# (GIT CONFIG GLOBAL) Configurando nosso hambiente
+## (GIT CONFIG GLOBAL) Configurando nosso hambiente
+Des o dia 13 de agosto de 2021, não é possível subir os projetos via Git para o GitHub utilizando apenas as credencias de e-mail e senha. Agora precisamos utilizar o Token. Para gerar um novo Token, precisamos realizar o login no GitHub, ir até `Settings` no menu lateral esquerdo em `Developer settings`, depois em `Personal access tokens` e `Generate new token`.
+###### Obs. Vale lembrar que você deve salvar seu token em um arquivo .txt, pois depois você não conseguirá visualizar a chave novamente.
 
-# (GIT INIT) Inicializando o Git
+##### Configurando o nosso nome
+`git config --global user.name "Seu Nome"`
+##### Configurando nosso e-mail
+`git config --global user.email aquivaio@seuemail.com`
+###### Obs. É muito importante você colocar o mesmo e-mail de login do GitHub.
+
+## (GIT INIT) Inicializando o Git
 
 Para inicializar um repositório no git, utilizamos o comando `git init`.
 **Exemplo:**
