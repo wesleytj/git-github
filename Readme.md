@@ -37,3 +37,41 @@ Após adicionar os arquivos, podemos finalmente commitar o nosso projeto para o 
 * Utilizando o comando `git commit -m "Descrição do commit"` 
 ![Commitando nosso projeto](https://github.com/wesleytj/git-github/blob/main/img/img3.png)<br>
 **Congratulations** fizemos nosso primeiro Commit.
+
+## (GitHub) Criando Repositório Remoto
+
+* Em `Repositories` ou `Your repositories` 
+* `new`
+
+##### Repository name: 
+Digite o nome do seu repositorio. 
+###### Procure utilizar um padrão para os nomes de repositorio `exemplo`, `outroExemplo` ou `mais-um-exemplo`
+
+##### Description
+É opcional, mas serve para você descrever sobre o que é seu repositório.
+
+##### View
+Defina `public` caso deseje que esse repositório seja visualizado por terceiros e que os mesmos possam interajir no mesmo.
+Defina `private` caso deseje que o repositório fique visível apenas por você.
+
+##### Initialize this repository with (Inicialize o repositório com):
+* Add Readme: Caso você queira que o repositório já venha com um Readme padrão.
+* Add .gitignore: Caso queira que alguns arquivos não sejam enviados para o GitHub
+* Choose a License: Caso você queira por restrições do que terceiros podem ou não fazer com seu código
+
+E por fim `Create repository`
+
+## Subindo seu projeto para o respositório criado
+O próprio GitHub já da um passo a passo para fazer a publicação, podemos apenas seguir.
+Como nós já iniciamos nosso repositório local anteriormente, já adicionamos os arquivos e já commitamos, só falta fazer um `push` para o repositório remoto.
+
+No seu terminal, dentro do repositório local, utilizaremos o seguinte comando:
+`git remote add origin git@github.com:<SeuNickName>/<NomeRepositorioRemoto>.git`
+exemplo:
+`git remote add origin git@github.com:wesleytj/git-github.git`
+###### Esse comando direciona pra onde o projeto será enviado
+
+E por fim, finalmente, nosso mais esperado `PUSH`.
+`git push -u origin main`
+### TCHANÃÃÃ
+Projeto publicado.
